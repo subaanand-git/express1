@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    min-height: 100vh;
+    background-image: url("https://i2.wp.com/www.gifstop.com/images/backgrounds/bluewave.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.form-label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+input{
+    border: 1px solid black !important;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+}
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    cursor: pointer;
+    background-color: green !important;
+}
+button:hover{
+    border-radius: 100px;
+    color: white !important;
+}
+.border{
+    border-radius: 50px;
+}
+.inputgroup .error{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px; 
+    color: rgb(242, 18, 18);
+}
+.inputgroup.success input{
+   border-color:#0cc477 !important;
+}
+.inputgroup.error input{
+    border-color:rgb(206, 67, 67) !important;
+ }
